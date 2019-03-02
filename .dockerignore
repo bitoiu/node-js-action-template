@@ -1,0 +1,6 @@
+src/node_modules
+*.md
+.gitignore
+*.iml
+.idea
+env

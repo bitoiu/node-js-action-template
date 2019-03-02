@@ -1,0 +1,12 @@
+{
+  "name": "CHANGEME",
+  "version": "0.0.1",
+  "description": "CHANGEME",
+  "dependencies": {
+    "loglevel": "^1.6.1",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}

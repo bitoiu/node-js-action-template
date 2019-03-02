@@ -1,0 +1,4 @@
+.idea
+release-notify-action.iml
+node_modules
+env
