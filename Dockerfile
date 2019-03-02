@@ -4,10 +4,10 @@ COPY ./src /action
 
 ENTRYPOINT ["/action/entrypoint.sh"]
 
-LABEL "com.github.actions.name"="CHANGEME"
-LABEL "com.github.actions.description"="CHANGEME"
-LABEL "com.github.actions.icon"="CHANGEME supported icons: https://developer.github.com/actions/creating-github-actions/creating-a-docker-container/#supported-feather-icons"
-LABEL "com.github.actions.color"="blue"
-LABEL "repository"="CHANGEME"
-LABEL "homepage"="CHANGEME"
-LABEL "maintainer"="CHANGEME"
+LABEL "com.github.actions.name"="NodeJS Action Template"
+LABEL "com.github.actions.description"="Template for new GitHub Actions running NodeJS"
+LABEL "com.github.actions.icon"="book-open"
+LABEL "com.github.actions.color"="green"
+LABEL "repository"="https://github.com/bitoiu/node-js-action-template"
+LABEL "homepage"="https://github.com/bitoiu/node-js-action-template"
+LABEL "maintainer"="https://github.com/bitoiu"

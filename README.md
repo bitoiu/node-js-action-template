@@ -21,7 +21,7 @@ GITHUB_EVENT_PATH="sample-payload.json" node action.js
  
 ## Testing the Action on GitHub.com
 
-First of all you'll need create a new repository on GitHub.com and push the local changes to it. Another option would have been to fork this repository to your account and clone it from there. Go through the `package.json` and `Dockerfile` and change all the `CHANGEME` values to customize the action. 
+First of all you'll need create a new repository on GitHub.com and push the local changes to it. Another option would have been to fork this repository to your account and clone it from there. You might also want to go into `package.json` and `Dockerfile` to change things like Action name, author, description, icon, colour, etc.
 
 After that just follow the documentation on how to create a new workflow and import your action: https://developer.github.com/actions/creating-workflows/creating-a-new-workflow/.
 

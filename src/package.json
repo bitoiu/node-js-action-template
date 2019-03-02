@@ -1,7 +1,7 @@
 {
-  "name": "CHANGEME",
+  "name": "node-js-action-template",
   "version": "0.0.1",
-  "description": "CHANGEME",
+  "description": "Template for new GitHub Actions running NodeJS",
   "dependencies": {
     "loglevel": "^1.6.1",
     "request-promise": "^4.2.4"
