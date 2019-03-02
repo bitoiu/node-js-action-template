@@ -33,4 +33,6 @@ If you've been working with NodeJS you'll surely know since you've started readi
 
 ## Pull Requests and Issues are Welcome
 
-If you find something that can be improved, or best practices that could be adopted in anything regarding NodeJS, Containers or GitHub Actions themselves, please send a pull request. 
+If you find something that can be improved, or best practices that could be adopted in anything regarding NodeJS, Containers or GitHub Actions themselves, please send a pull request.
+
+:octocat::heart: 
