@@ -1,6 +1,6 @@
 ## node-js-action-template
 
-This repository offers a template to build a [GitHub Action](https://developer.github.com/actions/) on [NodeJS](http://nodejs.org/) without really having to understand the complexities of containers - although I recommend you do at some point. My hope is that by letting you feel the power of Actions quicker and hassle free, you'll be more motivated to develop new ones and learn the rest of the technical context.           
+This repository offers a template to build a [GitHub Action](https://docs.github.com/en/actions) on [NodeJS](http://nodejs.org/) without really having to understand the complexities of containers - although I recommend you do at some point. My hope is that by letting you feel the power of Actions quicker and hassle free, you'll be more motivated to develop new ones and learn the rest of the technical context.           
  
 ## Developing your Action locally
 
