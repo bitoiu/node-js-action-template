@@ -15,14 +15,14 @@ After the project is setup you can just run it as:
 GITHUB_EVENT_PATH="sample-payload.json" node action.js
 ```
 
-`GITHUB_EVENT_PATH` is an [environment variable in Actions](https://docs.github.com/en/actions/configuring-and-managing-workflows/using-environment-variables) where the event payload is stored for analysis during execution. For local testing there's a file `src/sample-payload.json` which stores the sample payload of a `push` event. If you're planning on creating a workflow that triggers on another type of event, you can just [fetch a sample payload](https://docs.github.com/en/developers/webhooks-and-events/webhook-events-and-payloads) and replace the contents of that file.  
+`GITHUB_EVENT_PATH` is an [environment variable in Actions](https://docs.github.com/en/actions/learn-github-actions/variables) where the event payload is stored for analysis during execution. For local testing there's a file `src/sample-payload.json` which stores the sample payload of a `push` event. If you're planning on creating a workflow that triggers on another type of event, you can just [fetch a sample payload](https://docs.github.com/en/developers/webhooks-and-events/webhook-events-and-payloads) and replace the contents of that file.  
 
  
 ## Testing the Action on GitHub.com
 
 First of all you'll need create a new repository on GitHub.com and push the local changes to it. Another option would have been to fork this repository to your account and clone it from there. You might also want to go into `package.json` and `Dockerfile` to change things like Action name, author, description, icon, colour, etc.
 
-After that just follow the documentation on how to create a new workflow and import your action: [Configuring a workflow](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow).
+After that just follow the documentation on how to create a new workflow and import your action: [Configuring a workflow](https://docs.github.com/en/actions/using-workflows).
 
 ## Design considerations
 
